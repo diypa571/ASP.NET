@@ -11,3 +11,23 @@ Remember to install Microsoft.EntityFramworkTools 3.11
 For the file Startup.css, include these two...
 using Microsoft.EntityFramworksCore;
 using SMHI.Models;
+
+
+
+
+/*
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
+        // This method gets called by the runtime. Use this method to add services to the container.
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllersWithViews();
+            var connection = @"Server=(localdb)\mssqllocaldb;Database=SMHI;Trusted_Connection=True;ConnectRetryCount=0";
+                services.AddDbContext<SMHIContext>(options => options.UseSqlServer(connection));
+    }
+*/
