@@ -1,0 +1,12 @@
+Working with databases!
+
+Scaffold-DbContext "Server=(localdb)\mssqllocaldb;Database=SMHI;Trusted_Connection=True;"
+Scaffold-DbContext "Server=(localdb)\mssqllocaldb;Database=SMHI;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Server=(localdb)\\mssqllocaldb;Database=SHMI;Trusted_Connection=True;
+Remember to install Microsoft.EntityFramworkCore.SqlServer versui 3.1.11
+Remember to install Microsoft.EntityFramworkTools 3.11
+
+
+using Microsoft.EntityFramworksCore;
+using SMHI.Models;
